@@ -1,0 +1,26 @@
+.actor-info {
+    margin: 5px;
+    padding: 4px;
+    height: fit-content;
+    max-width: 210px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.actor-image-container {
+	margin: auto;
+}
+
+.actor-image{
+	width: 100%;
+}
+
+.actor-name {
+	height: 80px;
+	min-width: 200px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	background-color: #ffffff;
+}
+

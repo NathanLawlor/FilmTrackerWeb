@@ -1,0 +1,42 @@
+.pagination-container {
+	width: 100%;
+}
+
+.pagination-table {
+	margin: auto;
+	padding: 10px;
+}
+
+.pagination-block {
+  	cursor: pointer;
+  	color: black;
+  	float: left;
+  	margin: 1px;
+  	padding: 12px 20px;
+  	text-decoration: none;
+  	transition: background-color .3s;
+  	border: 1px solid #cacaca;
+  	background-color: whitesmoke;
+}
+
+.pagination-block:hover {
+	background-color: #ffeaa7;
+}
+
+.page-active {
+  	background-color: #ff7979;
+    color: white;
+    border: 1px solid #0a0a0a;
+}
+
+.page-active:hover {
+	background-color: #ff7979;
+}
+
+.page-active > span {
+    font-weight: bold;
+}
+
+.arrow-block-hide {
+	display: none;
+}

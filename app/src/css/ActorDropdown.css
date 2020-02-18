@@ -1,0 +1,41 @@
+.actors-block {
+	display: flex;
+	float: left;
+	width: 397px;
+}
+
+.actors-block > div {
+	width: 50%;
+}
+
+.search-actor-block, .linked-actors-block {
+
+}
+
+.actor-search {
+	height: 30px;
+	width: 95%;
+}
+
+.dropdown {
+	margin: auto;
+	padding: 10px;
+	width: 95%;
+}
+
+.dropdown-content, .film-actors-list {
+	width: 95%;
+    background-color: #f6f6f6;
+    border: 1px solid #dddddd;
+}
+
+.dropdown-option, .film-actor {
+	padding: 5px;
+	cursor: pointer;
+	transition: background-color .3s;
+}
+
+.dropdown-option:hover, .film-actor:hover {
+	background-color: #dddddd;
+}
+

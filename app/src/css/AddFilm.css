@@ -1,0 +1,9 @@
+.add-page-header {
+	width: 100vw;
+	margin: 0 10px;
+}
+
+.add-page-body {
+	display: flex;
+	flex-wrap: wrap;
+}

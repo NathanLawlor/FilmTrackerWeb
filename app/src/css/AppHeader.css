@@ -1,0 +1,63 @@
+.app-brand-block {
+	display: flex;
+	padding: 10px;
+	height: 16vw;
+    max-height: 100px;
+	align-items: center;
+	background: linear-gradient(to right, rgb(117, 114, 114),rgb(148, 140, 140), rgb(158, 149, 149));
+}
+
+.app-title {
+	font-size: 7vw;	
+	background: linear-gradient(to right, rgb(183, 19, 0), rgb(218, 30, 7), rgb(255, 141, 0), rgb(255, 234, 0));
+	-webkit-background-clip: text;
+	color: #ffffff00;
+}
+
+.app-logo-container {
+	display: flex;
+	margin-left: auto;
+}
+
+.app-logo {
+	width: 125px;
+}
+
+.app-logo:hover {
+	transform: scaleX(-1);
+}
+
+.navigation-bar {
+	display: flex;
+	margin-bottom: 30px;
+	width: 100%;
+	position: relative;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;	
+	background: linear-gradient(to right, #9e2a2aba, rgb(255, 121, 121));
+}
+
+.nav-list {
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	border-right: 2px solid black;
+	background-color: #ff7979;
+	transition-duration: 0.4s;
+}
+
+.nav-link:hover {
+	background-color: #ff3535;
+}
+
+.nav-link > a {
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+}

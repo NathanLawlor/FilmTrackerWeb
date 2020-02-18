@@ -1,0 +1,50 @@
+.form-group {
+	display: flex;
+}
+
+.form-group > div {
+	margin-bottom: 10px;
+	width: 50%;
+}
+
+.form-label {
+
+}
+
+.form-input {
+	width: 100%;
+	transition-duration: 0.4s;
+}
+
+.form-input:hover {
+	background-color: #dfe4ea;
+}
+
+.slider {
+	height: 25px;
+ 	background-color: #4CAF50;
+ 	cursor: pointer;
+}
+
+.details-block {
+	margin: 10px;
+	padding: 10px;
+	min-width: 400px;
+	height: 400px;
+	border: 2px double black;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.description-block {
+
+}
+
+.description-textarea {
+	resize: none;
+	transition-duration: 0.4s;
+}
+
+.description-textarea:hover {
+	background-color: #dbdbdb;
+}

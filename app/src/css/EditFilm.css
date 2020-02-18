@@ -1,0 +1,22 @@
+.edit-page-header {
+	width: 100vw;
+	margin: 0 10px;
+}
+
+.edit-page-body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.star-rating-image-container {
+	margin: 10px auto;
+	width: fit-content;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.star-rating-image-container > .star-rating-image {
+	margin-top: 10px;
+	width: 200px;
+}

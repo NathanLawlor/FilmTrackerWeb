@@ -1,0 +1,26 @@
+.actor-view-page-header {
+	margin: 0 20px;
+	font-size: 25px;
+}
+
+.list-page-actions {
+	display: flex;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.list-page-actions > div {
+	width: 50%;
+}
+
+.actor-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	width: 100%;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	justify-content: space-evenly;
+	background-color: #fb7e7e;
+}
+

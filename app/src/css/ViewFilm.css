@@ -1,0 +1,68 @@
+
+.film-details-display {
+    display: flex;
+    padding: 10px;
+}
+
+.film-images-container {
+	margin: 0 10px;
+    max-width: 250px;
+    height: fit-content;
+}
+
+.film-preview-container {
+    width: 100%;
+}
+
+.star-rating-image-container {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.star-rating-image-container > .star-rating-image {
+	margin-top: 0;
+    width: 100%;
+}
+
+.film-details-container {
+    margin: 0 15px;
+}
+
+.film-title-view {
+    font-size: 30px;
+}
+
+.film-details-container p {
+    margin: 20px 0;
+}
+
+p.film-genre {
+    font-size: 20px;
+}
+
+
+
+.actor-section {
+    padding: 10px;
+}
+
+h3.actor-section-header {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.film-actors-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: 10px;
+    border: 2px solid #000000;
+    background-color: #ff7979;
+}
+
+.film-image {
+	width: 100%;
+}
+
+
+

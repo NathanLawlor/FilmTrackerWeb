@@ -1,0 +1,53 @@
+.list-page {
+	min-height: 100vh;
+}
+
+.list-page-header {
+	margin: 0 10px;
+	font-size: 25px;
+	min-height: 120px;
+}
+
+.list-page-actions {
+	display: flex;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.list-page-actions > div {
+	width: 50%;
+}
+
+.film-table-container {
+	padding: 10px;
+}
+
+.film-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.film-table-header {
+	width: 12%;
+	height: 50px;
+	border: 2px solid black;
+	background-color: #ff7979;
+}
+
+.film-table-cell {
+	font-size: 20px;
+    padding: 0px 5px;
+    max-height: 45px;
+    border: 2px solid black;
+    border-spacing: 0px;
+    background-color: #FFFFFF;
+}
+
+.rating-cell, .action-cell {
+	text-align: center;
+}
+
+.rating-cell .star-rating-image {
+	margin-top: 5px;
+	width: 150px;	
+}
